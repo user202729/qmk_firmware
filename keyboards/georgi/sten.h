@@ -83,3 +83,8 @@ enum ORDER {
 #define RS  STN(SRS)
 #define RD  STN(SRD)
 #define RZ  STN(SRZ)
+
+// QMK Layers
+#define GAMING        0
+#define STENO_LAYER   1
+#define GAMING_2      2
