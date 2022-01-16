@@ -1,10 +1,13 @@
 #include QMK_KEYBOARD_H
+#include "sten.h"
 
 bool i2c_initialized = 0;
 i2c_status_t mcp23018_status = 0x20;
 
 void matrix_init_kb(void) {
   	steno_set_mode(STENO_MODE_GEMINI); // or STENO_MODE_BOLT
+
+	layer_move(GAMING);
 
     // (tied to Vcc for hardware convenience)
     //DDRB  &= ~(1<<4);  // set B(4) as input
