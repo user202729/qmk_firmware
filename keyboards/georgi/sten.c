@@ -94,7 +94,7 @@ bool send_steno_chord_user(steno_mode_t mode, uint8_t chord[6]) {
 	}
 
 	// Handle Gaming Toggle,
-	if (cChord == (PWR | FN | ST4 | ST3) && keymapsCount > 1) {
+	if (cChord == (PWR | FN | ST4 | ST3)) {
 #ifndef NO_DEBUG
 		uprintf("Switching to QMK\n");
 #endif
