@@ -20,11 +20,6 @@
 #define MEDIA   (LSD | LK | LW | LR)
 #define MOVE    (ST1 | ST2)
 
-// QMK Layers
-#define STENO_LAYER   0
-#define GAMING        1
-#define GAMING_2      2
-
 /* Keyboard Layout
  * ,---------------------------------.    ,------------------------------.
  * | FN  | LSU | LFT | LP | LH | ST1 |    | ST3 | RF | RP | RL | RT | RD |

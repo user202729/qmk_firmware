@@ -48,6 +48,11 @@ enum ORDER {
 		SRE, SRU, SRF, SRR, SRP, SRB, SRL, SRG, SRT, SRS, SRD, SRZ, SRES1, SRES2
 };
 
+// QMK Layers
+#define STENO_LAYER   0
+#define GAMING        1
+#define GAMING_2      2
+
 // Break it all out
 #define FN	STN(SFN)
 #define PWR	STN(SPWR)
