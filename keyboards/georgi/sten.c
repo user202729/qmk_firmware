@@ -98,7 +98,7 @@ bool send_steno_chord_user(steno_mode_t mode, uint8_t chord[6]) {
 #ifndef NO_DEBUG
 		uprintf("Switching to QMK\n");
 #endif
-		layer_move(GAMING);
+		layer_move(GAMING_2);
 		goto out;
 	}
 
