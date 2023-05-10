@@ -9,6 +9,7 @@
 #define LAYER_GAMING        2
 #define LAYER_MOUSE         3
 #define LAYER_MEDIA         4
+#define LAYER_TEST          5
 
 // Layer aliases.
 #define STN LAYER_STENO
@@ -26,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [LAYER_SWITCH] = LAYOUT(
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        TO(LAYER_TEST), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
                                             TO(GMG), TO(MSE), TO(MED), TO(STN)
     ),
     [LAYER_GAMING] = LAYOUT(
@@ -43,6 +44,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                   KC_MUTE, KC_VOLD, KC_VOLU, XXXXXXX, KC_SLEP,
         TO(SWC), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_RIGHT, KC_LEFT, XXXXXXX, XXXXXXX, XXXXXXX,
                                             XXXXXXX, XXXXXXX, KC_MPLY, XXXXXXX
+    ),
+    [LAYER_TEST] = LAYOUT(
+        KC_A, KC_B,  KC_C,  KC_D,  KC_E,                    KC_F,  KC_G,  KC_H,  KC_I,  KC_J,
+        TO(SWC), KC_K,  KC_L,  KC_M,  KC_N,  KC_O, KC_P, KC_Q,  KC_R,  KC_S,  KC_T,  KC_U,
+                                            KC_V,   KC_W,   KC_X,   KC_Y
     ),
 
     // A blank layer commented out, just to make adding new layers a little easier.
