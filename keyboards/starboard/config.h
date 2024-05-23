@@ -3,6 +3,8 @@
 
 #pragma once
 
+#define FORCE_NKRO
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
