@@ -1,12 +1,10 @@
 # starboard
 
-![starboard](imgur.com image replace me!)
+![starboard](https://www.stenography.store/media/product_images/starboard-top_nDp8XBE.png)
 
-*A short description of the keyboard/project*
-
-* Keyboard Maintainer: [Andrew Hess](https://github.com/Andrew Hess)
+* Keyboard Maintainer: [Andrew Hess](https://github.com/AndrewHess)
 * Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Availability: https://www.stenography.store/
 
 Make example for this keyboard (after setting up your build environment):
 
